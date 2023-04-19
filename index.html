@@ -1,281 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta charset="UTF-8">
+  <title>Abraham Christopher - Portfolio</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Favicons -->
+  <link href="assets/img/abraham.jpg" rel="icon" />
+  <link href="assets/img/apple-touch-icon.html" rel="apple-touch-icon" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
 
-  <!-- =====favicon======= -->
+  <!-- CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <link href="./assets/icons/abraham.jpg" rel="icon">
-
-  <title>Abraham Portfolio</title>
-
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
+
 <body>
-  <main class="container">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-    <!-- header section -->
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="assets/img/abraham.jpg" alt="" class="img-fluid rounded-circle" />
+        <h1 class="text-light"><a href="index-2.html">Abraham Christopher</a></h1>
+        <div class="social-links mt-3 text-center">
 
-    <nav class="nav-container ">
-
-      <a href="#" id="nameLogo">Cabraham</a>
-
-      <!-- <a href="#" class="imgLogo" id="navIcon"><img class="imgLogo" src="./assets/icons/Union.svg" alt="line-menu"></a> -->
-
-      <ul class="nav-menu">
-
-        <li class="nav-item">
-
-          <a href="#portfolio" class="nav-link" id="portfolio-link">Portfolio</a>
-
-        </li>
-
-        <li class="nav-item">
-
-          <a href="#about" class="nav-link" id="about-link">About</a>
-
-        </li>
-
-        <li class="nav-item">
-
-          <a href="#contact" class="nav-link" id="contact-link">Contact</a>
-
-        </li>
-
-      </ul>
-
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+          <a href="https://github.com/cabraham1" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/abrahamchristopher" class="linkedin" target="_blank"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://codesandbox.io/u/" class="codepen" target="_blank"><i class="bx bxl-codepen"></i></a>
+          <a href="https://medium.com/@christopherabraham8" class="medium" target="_blank"><i
+              class="bx bxl-medium"></i></a>
+        </div>
       </div>
 
-    </nav>
-    <!-- modal section -->
-
-    <!-- intro section  -->
-
-    <div class="intro">
-
-      <!-- main text content -->
-
-      <div class="text-container">
-
-        <h1 class="primary-text">I’m Abraham Glad to see you!</h1>
-        <!-- dividerText -->
-        <div class="dividerText"></div>
-
-        <p class="secondary-text">I’m a software developer! I can help you build a product , feature or website
-          Look
-          through some of my work and experience! If you like what you see and have a project you need
-          coded,
-          don’t
-          hestiate
-          to contact me.</p>
-      </div>
-      <!-- dividerText -->
-      <div class="dividerText"></div>
-
-      <!-- call to action text -->
-      <div class="link-container">
-        <a href="#" class="link-text">LET’S CONNECT</a>
-      </div>
-
-      <!-- social media icons -->
-      <div>
-        <ul class="social-container social-container-DK social-container-1">
+      <!-- .nav-menu -->
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
           <li>
-            <a href="https://twitter.com/_Cabraham" target="_blank" rel="noopener noreferrer"><img
-                class="social twitter" src="./assets/icons/twitter.svg" alt="twitter"></a>
+            <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/abrahamchristopher/" target="_blank" rel="noopener noreferrer"><img
-                class="social linkedin move" src="./assets/icons/Linkedinicon.svg" alt="linkedin"></a>
+            <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img class="social meduim move" src="./assets/icons/medium.svg" alt="medium"></a>
+            <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>My Resume</span></a>
           </li>
           <li>
-            <a href="https://github.com/Cabraham1" target="_blank" rel="noopener noreferrer">
-              <img class="social github move" src="./assets/icons/github.svg" alt="github"></a>
+            <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>My
+                Projects</span></a>
           </li>
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <img class="social agenllist move" src="./assets/icons/angellist.svg" alt="agenllist"></a>
+            <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact Me</span></a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
+  </header>
+  <!-- End Header -->
 
-    <!-- intro end  -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Abraham Christopher</h1>
 
-    <div class="workDivider"></div>
+      <p>
+        Software Developer <br />
+        [Frontend, React]
+      </p>
+      <br />
+      <a href="assets/Abraham CV.pdf" target="_blank" style="color: #fff" download>
+        Download my CV&nbsp;&nbsp;<i class="bi bi-download"></i></a>
 
-    <div class="main-workContainer">
+    </div>
+  </section>
+  <!-- End Hero -->
 
-      <!-- portfolio section -->
-      <div class="card" id="card">
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
 
+
+
+            As a React developer, I possess extensive experience and knowledge in building complex web applications
+            using ReactJS,
+            Redux, and other related technologies. I am committed to continuous learning and staying up-to-date with the
+            latest
+            trends and best practices in React development to ensure that my skills remain relevant and competitive in
+            the industry.
+            I am an enthusiastic Tech-savvy Application Developer, eager to contribute my quota to the success of the
+            organization I
+            work for.
+
+
+
+
+
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/abraham.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software Developer [Frontend, React]</h3>
+            <p>
+              Hello, my name is Abraham Christopher. I am a frontend developer with expertise in Reactjs and basic
+              knowledge of Next
+              and Typescript.
+
+              <br /> I have a Higher National Diploma in Electrical Electronics Engineering and have a proven track
+              record of success on
+              structured, results-focused product development teams. I am confident in my abilities and have
+              demonstrated this through
+              my work.
+            <p> Over the past three years, I have primarily focused on building the client side of web applications,
+              sometimes using
+              micro-service architecture. My daily tasks involve working with Restful API data, building UI logic and
+              components,
+              documenting, and occasionally conducting end-to-end tests using the CI/CD approach with technologies such
+              as React.js,
+              Redux, Context API, styled-components, CSS libraries, and other modern frontend tools.</p>
+
+            <p>
+
+              It is important to note that in addition to being a frontend developer, I am also passionate, empathic,
+              and strive for
+              excellence in my work. <br />As a frontend engineer, I would utilize my extensive experience as a frontend
+              developer, in-depth knowledge of the
+              product development process, excellent communication skills, and a range of technical and creative skills
+              to enhance the
+              productivity and success of any product development team.
+
+            <p>You can contact me through LinkedIn or email if you have any questions or would like to connect.</p>
+
+            I look forward to speaking with you soon.
+
+            </p>
+
+          </div>
+        </div>
       </div>
+    </section>
+    <!-- End About Section -->
 
-      <!-- project one end -->
+    <!-- ======= Facts Section ======= -->
 
-      <!-- about me section starts hereby -->
-      <section class="aboutMeContainer">
-        <div class="intro-aboutMe">
-          <div class="about-section">
-            <div class="text-container-about text-container-about-DK">
-              <h2 class="primary-text-about" id="about">About<br>Myself</h2>
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
 
-              <p class="secondary-text-about">I’m a software developer! I can help you build a product ,
-                feature or website
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Frontend Developer</h4>
+              <h5>January 2022 – Present</h5>
+              <p><em>Interface Connect Limited, Abuja, NG</em></p>
+              <ul>
+                <li>
+                  Some of my responsibilities as a frontend developer include Successfully deployed front-end
+                  applications to production, resulting in a seamless user experience for clients and an
+                  increase in overall user engagement.
 
-                Look through some of my work and experience! If you like what you see and have aproject you need
-                coded,
-                don’t hestiate to contact me.
+                </li>
+                <li>
+                  Expertly integrated applications, graphics, audio and video components into client web applications,
+                  enhancing the user
+                  experience and improving overall functionality.
+                </li>
+                <li>Built and implemented several tools that significantly improved user engagement and satisfaction,
+                  resulting in a 30%
+                  increase in user retention.</li>
+                <li>Designed and developed the company's website from scratch, creating a visually stunning and
+                  intuitive user interface
+                  that received praise from clients and stakeholders alike. The website is fully responsive, optimized
+                  for search engine
+                  indexing, and has resulted in a 25% increase in website traffic and user engagement.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4> Junior Frontend developer Interm
+              </h4>
+              <h5>June 2021 – December 2021</h5>
+              <p><em>Tiidelab, Abuja, NG</em></p>
+              <ul>
+                <li>
+                  Developed the Boxmonie web application, a fintech platform that enables users to create a group,
+                  contribute money
+                  together, and take turns receiving the accumulated sum. This system, called "thrifting," allows users
+                  to manage their
+                  finances in a collaborative way.
+                </li>
+                <li>
+                  Built and deployed a micro-frontend web application using microservices, implemented state management
+                  and UI logic using
+                  React hooks, and created documentation for components using React Storybook as a style guide.
+
+                </li>
+                <li>
+                  Responsible for translating designs and wireframes into high-quality code, building functional
+                  reusable components using
+                  React js and styled component, and integrating the frontend with REST APIs from Swagger documentation.
+
+                </li>
+                <li>
+                  Documented task flow and process improvements in Confluence, and updated task progress on Trello.
+
+                </li>
+
+                <li>Learned the agile workflow from design to deployment as well as presenting features at demo
+                  sessions.
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">&#160;</h3>
+            <div class="resume-item">
+              <h4>WordPress Developer</h4>
+              <h5>September 2019 – December 2019</h5>
+              <p><em>Federal Ministry of Humanitarian Affairs, Disaster Management and Social Development</em></p>
+              <ul>
+                <li>
+
+                  Technologies: HTML, CSS, JavaScript, Figma, WordPress
+
+                </li>
+                <li>
+                  Built and maintained business websites for clients with WordPress
+
+                </li>
+                <li>Implemented UI prototypes/designs for multiple in-office web-based applications using Figma</li>
+                <li>Developed a working knowledge of frontend technologies through self-guided tutorials, with an
+                  emphasis on
+                  object-oriented programming.</li>
+                <li>
+
+                  Designed and developed E-commerce website, this system solved the problem physical market place where
+                  users place order on items from the online store and will be delivery to them.
+                </li>
+                <li>
+                  Learned Content management system, WordPress, HTML, CSS, Bootstrap, jQuery, JavaScript, asynchronous
+                  programming, and the concept of web technology
+                </li>
+                <li></li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Higher National Diploma</h4>
+              <h5>(1/2019 - 12/2022)</h5>
+              <p>
+                <em>HND(2022) in Electrical Electronics Engineering - Federal Polytechnic Idah, Kogi State.
+                </em>
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
 
-            <!-- call to action text -->
-            <div class="linkDivid"></div>
-            <a href="#" class="link-text-DK link-text">LET’S CONNECT</a>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
 
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Javascript</li>
+              <li data-filter=".filter-card">React</li>
+            </ul>
+          </div>
+        </div>
 
-            <!-- social media icons -->
-            <div>
-              <ul class="social-container social-container-DK">
-                <li>
-                  <a href="https://twitter.com/_Cabraham" target="_blank" rel="noopener noreferrer"><img
-                      class="social twitter" src="./assets/icons/twitter.svg" alt="twitter"></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/abrahamchristopher/" target="_blank"
-                    rel="noopener noreferrer"><img class="social linkedin move" src="./assets/icons/Linkedinicon.svg"
-                      alt="linkedin"></a>
-                </li>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    <img class="social meduim move" src="./assets/icons/medium.svg" alt="medium"></a>
-                </li>
-                <li>
-                  <a href="https://github.com/Cabraham1" target="_blank" rel="noopener noreferrer">
-                    <img class="social github move" src="./assets/icons/github.svg" alt="github"></a>
-                </li>
-                <li>
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    <img class="social agenllist move" src="./assets/icons/angellist.svg" alt="agenllist"></a>
-                </li>
-              </ul>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/AdminApp.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/AdminApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="https://abraham-react-ui.netlify.app" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
             </div>
-            <button type="submit" class="call-to-action-resume call-to-action-resume-DK">Get my resume</button>
           </div>
 
-          <div class="language-section language-section-DK">
-            <div class="language language-DK">
-              <h2>Languages</h2>
-              <img class='language-dropdown' src="./assets/icons/Union3.svg" alt="drop-down">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Annotation 2023-04-19 105831.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Annotation 2023-04-19 105831.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="https://share-market.netlify.app" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
             </div>
+          </div>
 
-            <!-- javascript html css snippets -->
-            <div class="language-snippets-container language-snippets-container-DK">
-              <ul class="language-snippets language-snippets-DK ">
-                <li><img src="./assets/icons/Ellipse1.svg" alt="javascripticon"></li>
-                <li>
-                  <p>JavaScript</p>
-                </li>
-              </ul>
-              <ul class="language-snippets language-snippets-DK ">
-                <li><img src="./assets/icons/Ellipse2.svg" alt="htmlicon"></li>
-                <li>
-                  <p>HTML</p>
-                </li>
-              </ul>
-              <ul class="language-snippets language-snippets-DK">
-                <li class=""><img src="./assets/icons/Ellipse11.svg" alt="cssicon"></li>
-                <li>
-                  <p>CSS</p>
-                </li>
-              </ul>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Annotation 2023-04-19 184419.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Annotation 2023-04-19 184419.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="https://spacetravelershub-j37j.onrender.com/" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
             </div>
-            <div class="dvi">
-              <div class="language language-DK">
-                <h2>Frameworks</h2>
-                <img class='language-dropdown' src="./assets/icons/Union1.svg" alt="drop-down">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/expenseTracker.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/expenseTracker.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://chrisexpense.netlify.app/" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
               </div>
-              <hr class="hr-line">
-              <div class="language language-DK">
-                <h2>Skills</h2>
-                <img class='language-dropdown' src="./assets/icons/Union1.svg" alt="drop-down">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Annotation 2023-04-19 184643.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Annotation 2023-04-19 184643.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://math-magician1.onrender.com/" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
               </div>
-              <hr class="hr-line">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/foodApp.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/foodApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/cabraham1" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/nameInputApp.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/nameInputApp.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://chris-input.netlify.app/" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolioApp.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolioApp.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://abrahamchristopher-react-portfolio.netlify.app" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Annotation 2023-04-19 184757.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Annotation 2023-04-19 184757.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://todo-2jic.onrender.com" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/bookstore.PNG" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/bookstore.PNG" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://chris-book-app.netlify.app" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/weatherApp.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/weatherApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://abraham-react-weather-app.netlify.app" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+              <!-- Javascript -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Annotation 2023-03-16 203224.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Annotation 2023-03-16 203224.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="https://cabraham1.github.io/Javascript-Capstone-Project/" title="More Details"
+                  target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Annotation 2023-04-19 191739.png" class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Annotation 2023-04-19 191739.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="https://cabraham1.github.io/Todo-list/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/WeLead conferences - Google Chrome 2_9_2023 8_54_30 AM.png"
+                class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/WeLead conferences - Google Chrome 2_9_2023 8_54_30 AM.png"
+                  data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://cabraham1.github.io/WeLead-conference/" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/Leaderboard and 4 more pages - Personal - Microsoft​ Edge 3_14_2023 3_28_28 PM.png"
+                class="img-fluid" alt="" />
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Leaderboard and 4 more pages - Personal - Microsoft​ Edge 3_14_2023 3_28_28 PM.png"
+                  data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i
+                    class="bx bx-plus"></i></a>
+                <a href="https://cabraham1.github.io/Leaderboard/" title="More Details" target="_blank"><i
+                    class="bx bx-link"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- contact us section -->
-      <section class="contact contact-DK">
-        <div class="contact-container">
-          <div class="contact-container-DK">
-            <h2 id="contact">Contact me</h2>
+      </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
 
-            <p class="contact-P contact-P-DK">If you have an application you <br>are
-              interested in developing, a feature that you need to built or a
-              project that needs coding. i'd love to help with it</p>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
 
-            <!-- form section -->
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Nigeria</p>
+              </div>
 
-            <form class="contact-form" action="https://formspree.io/f/mjvzkbwq" method="POST" id="form">
-              <ul class="form-section">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>christopherabraham8@gmail.com</p>
+              </div>
 
-                <li>
-                  <label for="name">fullname</label>
-                  <input type="text" name="name" class="input-DK" maxlength="30" placeholder="Please your name"
-                    required>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+234 810 091 5641</p>
+              </div>
 
-                </li>
 
-                <li>
-                  <label for="email">email</label>
-                  <input type="email" name="email" class="input-DK" placeholder="Enter a valid email " required>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11146.750530334619!2d7.368186299387671!3d8.974774610180063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e73684ebb9055%3A0x6746ef74dff8b487!2sINTERFACE%20CONNECT%20LIMITED!5e0!3m2!1sen!2sng!4v1670681499035!5m2!1sen!2sng"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
 
-                </li>
-
-                <li>
-                  <label for="message">drop your message</label>
-                  <textarea name="message" cols="43" rows="9" maxlength="500" placeholder="Write your message here"
-                    required class="input-DK"></textarea>
-
-                </li>
-
-              </ul>
-
-              <button type="submit" class="getInTouch getInTouch-DK">Get in Touch</button>
-
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://formspree.io/f/mrgdnrlz" method="POST" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your message has been sent. Thank you!
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
             </form>
           </div>
-          <small></small>
         </div>
-      </section>
-
-      <!-- modal section  -->
-
-      <section class="popups" id="popups">
-
-      </section>
-    </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
   </main>
-  <script src="./js/index.js"></script>
-  <script src="./js/projects.js" type="module"></script>
-  <script src="./js/validate.js"></script>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
+
+<!-- Mirrored from www.techietee.dev/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Dec 2022 11:39:09 GMT -->
 
 </html>
