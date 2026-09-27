@@ -1,758 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
 <head>
   <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christopher Abraham — Frontend Engineer</title>
+  <meta name="description" content="Christopher Abraham is a frontend engineer specializing in React, Next.js, and TypeScript. He builds SaaS and operational web applications, from multi-country CRM to insurance platforms." />
+  <meta name="author" content="Christopher Abraham" />
+  <meta name="theme-color" content="#f3f0e9" />
+  <link rel="canonical" href="https://cabraham.netlify.app/" />
 
-  <title>Abraham Christopher - Portfolio</title>
-  <meta content="" name="description" />
-  <meta content="" name="keywords" />
+  <meta property="og:title" content="Christopher Abraham — Frontend Engineer" />
+  <meta property="og:description" content="React, Next.js, and TypeScript for SaaS and operational web applications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cabraham.netlify.app/" />
+  <meta property="og:image" content="https://cabraham.netlify.app/assets/img/christopher.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Favicons -->
-  <link href="assets/img/abraham.jpg" rel="icon" />
-  <link href="assets/img/apple-touch-icon.html" rel="apple-touch-icon" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/img/christopher.jpg" />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-  <!-- CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>document.documentElement.classList.add("js");</script>
 
-  <!-- Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Christopher Abraham",
+      "jobTitle": "Frontend Engineer",
+      "email": "mailto:christopherabraham8@gmail.com",
+      "telephone": "+2348100915641",
+      "url": "https://cabraham.netlify.app/",
+      "image": "https://cabraham.netlify.app/assets/img/christopher.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Nigeria"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/abrahamchristopher",
+        "https://github.com/cabraham1",
+        "https://medium.com/@christopherabraham8"
+      ],
+      "knowsAbout": ["React", "Next.js", "TypeScript", "SaaS", "React Native"]
+    }
+  </script>
 </head>
-
-
 <body>
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <a class="skip-link" href="#work">Skip to work</a>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-      <div class="profile">
-        <img src="assets/img/abraham.jpg" alt="" class="img-fluid rounded-circle" />
-        <h1 class="text-light"><a href="index-2.html">Abraham Christopher</a></h1>
-        <div class="social-links mt-3 text-center">
-
-          <a href="https://github.com/cabraham1" class="github" target="_blank"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/abrahamchristopher" class="linkedin" target="_blank"><i
-              class="bx bxl-linkedin"></i></a>
-          <a href="https://twitter.com/_Cabraham" class="email" target="_blank"><i class="bx bxl-twitter"></i></a>
-          <a href="https://medium.com/@christopherabraham8" class="medium" target="_blank"><i
-              class="bx bxl-medium"></i></a>
-        </div>
-      </div>
-
-      <!-- .nav-menu -->
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li>
-            <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a>
-          </li>
-          <li>
-            <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>My Resume</span></a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>My
-                Projects</span></a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact Me</span></a>
-          </li>
-        </ul>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">CA</span>
+        <span class="brand-name">Christopher Abraham</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open menu</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="assets/christopher-abraham-cv.pdf" download="Christopher-Abraham-CV.pdf">Resume</a>
       </nav>
     </div>
   </header>
-  <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Abraham Christopher</h1>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="now"><span class="dot" aria-hidden="true"></span> Frontend engineer · Currently at Myka Ecosystems</p>
+          <h1 id="hero-title">Christopher <em>Abraham</em></h1>
+          <p class="lede">I build complex web applications with React, Next.js, and TypeScript. Nearly six years shipping SaaS and operational products: a CRM used across countries, insurance platforms, fintech, and public services.</p>
+          <div class="hero-actions">
+            <a class="button" href="#work">Selected work</a>
+            <a class="button button-ghost" href="assets/christopher-abraham-cv.pdf" download="Christopher-Abraham-CV.pdf">Download CV</a>
+          </div>
+          <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/abrahamchristopher" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/cabraham1" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://medium.com/@christopherabraham8" target="_blank" rel="noreferrer">Medium</a></li>
+          </ul>
+          <ul class="stats">
+            <li>
+              <strong>~6 yrs</strong>
+              <span>Building web applications</span>
+            </li>
+            <li>
+              <strong>500+</strong>
+              <span>Companies on the CRM</span>
+            </li>
+            <li>
+              <strong>React</strong>
+              <span>Next.js and TypeScript</span>
+            </li>
+          </ul>
+        </div>
+        <figure class="portrait">
+          <img src="assets/img/christopher.jpg" width="1007" height="1024" alt="Portrait of Christopher Abraham" />
+        </figure>
+      </div>
+    </section>
 
-      <p>
-        Software Developer <br />
-      </p>
-      <br />
-      <a href="assets/Christopher Abraham cv.pdf" target="_blank" style="color: #fff" download>
-        Download my CV&nbsp;&nbsp;<i class="bi bi-download"></i></a>
-
+    <div class="wrap">
+      <ul class="stack-row" aria-label="Core technologies">
+        <li>React</li>
+        <li>Next.js</li>
+        <li>TypeScript</li>
+        <li>React Native</li>
+        <li>NextAuth</li>
+        <li>Redux</li>
+        <li>Zustand</li>
+        <li>REST</li>
+        <li>Jest</li>
+        <li>Cypress</li>
+      </ul>
     </div>
-  </section>
-  <!-- End Hero -->
 
-  <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About</h2>
-          <p>
-
-
-With nearly six years of experience developing scalable and secure web applications, I specialize in building robust front-end solutions using modern frameworks like React. I stay current with industry trends to deliver competitive, future-proof products. I’m passionate about clean architecture and team collaboration—mentoring new developers, leading with a focus on modular design, and driving innovation through agile practices to consistently deliver impactful, user-centered solutions.
-
-
-
-
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/abraham.jpg" class="img-fluid" alt="" />
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index">01</p>
+          <div>
+            <h2 id="work-title">Selected work</h2>
+            <p class="lede">Product interfaces for SaaS, insurance operations, fintech, and public platforms.</p>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Software Developer [Frontend, React]</h3>
-            <p>
-              Hello, my name is Abraham Christopher. I am a frontend developer with expertise in Reactjs, Next, Typescript and React Native
+        </header>
 
-              <br /> I have a Higher National Diploma in Electrical Electronics Engineering and have a proven track
-              record of success on
-              structured, results-focused product development teams. I am confident in my abilities and have
-              demonstrated this through
-              my work.
-            <p>With six years of experience in front-end development, I specialize in building modern, scalable, and maintainable web applications. My primary focus has been on developing robust client-side architectures, often within micro-service ecosystems. I work extensively with RESTful APIs, and my workflow includes building complex UI logic, handling state effectively, documenting systems, and integrating end-to-end testing within CI/CD pipelines. I leverage a wide range of technologies including React.js, Next.js, Redux, Zustand, NextAuth, Context API, Socket.io, Jest, styled-components, Tailwind CSS, and other modern front-end libraries. I’m passionate about clean code, secure data flow, and delivering performant user experiences, while also mentoring teams and promoting modular, reusable design patterns.</p>
-
-            <p>
-
-              It is important to note that in addition to being a frontend developer, I am also passionate, empathic,
-              and strive for
-              excellence in my work. <br />As a frontend engineer, I utilize my extensive experience as a frontend
-              developer, in-depth knowledge of the
-              product development process, excellent communication skills, and a range of technical and creative skills
-              to enhance the
-              productivity and success of any product development team.
-
-            <p>You can contact me through LinkedIn or email if you have any questions or would like to connect.</p>
-
-            I look forward to speaking with you soon.
-
-            </p>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-        <div class="section-title">
-          <h2>Resume</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
-      <h4>Senior Frontend Developer</h4>
-      <h5>May 2024 – Present</h5>
-      <p><em>MBL Hightech, Onsite</em></p>
-  <ul>
-    <li> 
-      Spearheaded the evolution of MBL’s CRM front‑end into a modular micro‑frontend ecosystem using Next.js, enabling independent feature deployments and reducing cross‑team merge conflicts by 70%.
-    </li>
-    <li>
-      Architected and optimized complex form workflows for customer profiles, lead management, and sales pipelines using React Hook Form, Ant Design Forms, and custom validation logic—cutting form‑related bugs by 50%.
-    </li>
-    <li>
-      Led integration with RESTful and GraphQL CRM APIs: authored TypeScript interfaces, implemented RTK Query for data fetching, and built a dynamic filtering and pagination system that supports millions of records with sub‑second response times.
-    </li>
-    <li>
-      Designed and developed a real‑time notifications center using Socket.io and Context API, alerting sales reps to lead status changes, task assignments, and team messages—improving response SLAs by 30%.
-    </li>
-    <li>
-      Established secure authentication and role‑based access control flows with NextAuth, JWT refresh tokens, and encrypted storage, ensuring data privacy across admin, sales, and support user groups.
-    </li>
-    <li>
-      Built a reusable UI component library in Storybook with Tailwind CSS and styled‑components, standardizing design tokens and delivering a consistent, accessible interface for CRM dashboards, reports, and forms.
-    </li>
-    <li>
-      Championed end‑to‑end quality with Jest unit tests, React Testing Library, and Cypress E2E suites in GitLab CI/CD—maintaining over 90% coverage on critical CRM workflows and accelerating safe deployments.
-    </li>
-    <li>
-      Mentored and coached three junior engineers: introduced best practices for Redux Toolkit and Zustand, facilitated bi‑weekly deep dives on performance tuning (code‑splitting, memoization), and led pair‑programming sessions.
-    </li>
-    <li>
-      Collaborated with product and UX teams to translate CRM feature requirements into technical designs, prioritizing performance (Lighthouse scores 95+), accessibility (WCAG AA), and maintainability.
-    </li>
-    <li>
-      Drove agile ceremonies as a senior contributor: refined sprint planning with story‑point estimations, instituted quarterly roadmap reviews, and conducted retrospectives that improved team velocity by 20% and cross‑team communication.
-    </li>
-  </ul>
-</div>
-
-            <div class="resume-item">
-              <h4>React Native Developer</h4>
-              <h5>March 2024 – May 2024</h5>
-              <p><em>Uride, Federal Capital Territory, Nigeria (Contract) </em></p>
-              <ul>
-  <li>
-    Develop and maintain the Uride mobile application using React Native, ensuring high performance, responsiveness, and reliability  </li>
-  <li>
-    Implement user registration and authentication features, allowing users to register as drivers or riders and securely access the platform.  </li>
-  <li>
-    Integrate geolocation services using Google API to enable real-time tracking and navigation for drivers and passengers, ensuring accurate and efficient transportation services.  </li>
-  <li>
-    Implement booking and scheduling features, enabling users to request rides, view driver availability, and manage ride bookings seamlessly  </li>
-</ul>
-
-            </div>
-            <div class="resume-item">
-              <h4>Software Engineer ( Frontend )</h4>
-              <h5>December 2023 – May 2024</h5>
-              <p><em>Thermolinks</em></p>
-              <ul>
-                <li>
-                  Spearheaded the development of various web projects using React.js, Next.js, TypeScript, and Redux to deliver engaging user interfaces and seamless user experiences.
-                </li>
-                <li>
-                  Led the development of "Project Hope" an orphan application platform, enabling users to register as sponsors or guardians and facilitating support for orphans through financial and academic means.                </li>
-                <li>
-                  Contributed to the development of "NSP (Nigeria Startup Portal)," a platform for Nigerian startups to register and apply for government seed funding, similar to LinkedIn for startups.                </li>
-                <li>
-                  Implemented state management solutions using Zustand and Redux, and integrated authentication mechanisms using NextAuth for secure user authentication and authorization.              <li>
-                  Collaborate closely with developers, designers, and other stakeholders to facilitate effective communication and foster a collaborative development environment.
-                </li>
-              <li>
-                Implemented role-based access control within the systems, defining user permissions according to their roles to bolster security measures and maintain data integrity.
-              </li>
+        <div class="stack">
+          <article class="panel panel-dark feature reveal">
+            <div>
+              <p class="meta">MBL High-Tech Nigeria · May 2024 – Apr 2026</p>
+              <h3>A CRM used by more than 500 companies</h3>
+              <p class="copy">I developed and maintained a customer relationship platform serving businesses across multiple countries. I shipped features customers asked for, integrated them into the live system, and kept the product stable as the user base grew across regions.</p>
+              <p class="copy">Alongside the CRM I helped build a progressive web app for financial trading, and I improved ClientZone, the surface companies use to manage financial transactions.</p>
+              <ul class="tags">
+                <li>SaaS</li>
+                <li>CRM</li>
+                <li>PWA</li>
+                <li>Multi-region</li>
+                <li>Frontend</li>
               </ul>
             </div>
-            <div class="resume-item">
-              <h4> Software Engineer ( Frontend )
-              </h4>
-              <h5>May 2023 – December 2023</h5>
-              <p><em>Vorbtech Innovative Solutions (Contract)</em></p>
-              <ul>
-                <li>
-                  Contributed to the development and maintenance of innovative web applications, leveraging a tech stack including TypeScript, ReactJs, Nextjs, NodeJs, MongoDB, Express, and socket.io.
-                </li>
-                <li>
-                  Crafted intuitive and responsive front-end interfaces to elevate user experience, utilizing ReactJs and Nextjs, while consistently focusing on user engagement enhancements
-                </li>
-                <li>
-                  Drove the implementation of real-time features through sockets, significantly augmenting user interactivity and satisfaction
-                </li>
-                <li>
-                  Engineered robust RESTful APIs with NodeJs and Express, ensuring seamless communication and optimal functionality between front-end and back-end.
-                </li>
+            <div class="feature-stat">
+              <p class="stat-num">500+</p>
+              <p>Companies, across multiple countries</p>
+            </div>
+          </article>
 
-                <li>Conducted unit testing and end-to-end testing to ensure software quality.
-                </li>
-                <li>
-                  Collaborated in Agile environments, participating in daily stand-ups and sprint planning.</li>
-              </ul>
-                <li>
-                  Maintained detailed code documentation for knowledge sharing and onboarding.
+          <article class="panel panel-line reveal">
+            <p class="meta">Myka Ecosystems · Jan 2026 – Present</p>
+            <h3>Insurance operations, from policy to payment</h3>
+            <p class="copy">I build the internal web applications staff use to run policies, customer records, claims, and payments, and I keep the company site aligned with that product.</p>
+            <div class="trio">
+              <div>
+                <h4>Policies and customers</h4>
+                <p>Admin workflows for policy updates, customer records, and the information internal teams review every day.</p>
+              </div>
+              <div>
+                <h4>Claims</h4>
+                <p>End-to-end claims handling, from submission through review and approval.</p>
+              </div>
+              <div>
+                <h4>Underwriting and field</h4>
+                <p>Review tools for underwriters, plus reporting access for inspectors and field agents, wired to backend APIs.</p>
+              </div>
+            </div>
+            <ul class="tags">
+              <li>Insurance</li>
+              <li>Admin systems</li>
+              <li>Workflows</li>
+              <li>REST APIs</li>
+            </ul>
+          </article>
+
+          <div class="case-grid">
+            <article class="case reveal">
+              <a class="shot shot-cover" href="https://portal.startup.gov.ng/" target="_blank" rel="noreferrer">
+                <img src="assets/img/portfolio/nsp.jpg" width="1934" height="1122" alt="Nigeria Startup Portal homepage with the headline Unlocking Nigeria's Innovation Potential" />
+              </a>
+              <div class="case-copy">
+                <p class="meta">Thermolinks · Public platform</p>
+                <h3>Nigeria Startup Portal</h3>
+                <p class="copy">Part of the Nigeria Startup Act. Startups register and apply for government seed funding. I contributed to the frontend in React, Next.js, and TypeScript, with Redux, Zustand, NextAuth, and role-based access.</p>
+                <ul class="tags">
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>NextAuth</li>
+                  <li>Redux</li>
+                  <li>Zustand</li>
                 </ul>
-                <li>
-                  Implemented role management into systems, determining user access based on roles for enhanced security and data integrity.                </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Code Reviewer</h4>
-              <h5>May 2023 – Present</h5>
-              <p><em>Microverse, San Francisco, California, United State (Contract)</em></p>
-              <ul>
-                <li>
-                  Perform thorough code reviews to identify and address any potential issues, ensuring adherence to coding standards and best practices.
+                <a class="text-link" href="https://portal.startup.gov.ng/" target="_blank" rel="noreferrer">Visit the portal <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
 
-                </li>
-                <li>
-                  Conduct meticulous UI reviews to guarantee a seamless and user-friendly experience.
-                </li>
-                <li>Analyze and assess feedback from code and UI reviews, taking ownership of necessary rework and implementing improvements.</li>
-                <li>Utilize platforms such as GitHub and Slack to promptly respond to and resolve project-related queries from students, providing clear and concise answers.</li>
+            <article class="case reveal">
+              <figure class="shot shot-cover shot-hope">
+                <img src="assets/img/portfolio/hope.jpg" width="2004" height="1422" alt="Project Hope dashboard showing sponsorship trends, orphan counts, and a gender chart" />
+              </figure>
+              <div class="case-copy">
+                <p class="meta">Thermolinks · Product</p>
+                <h3>Project Hope</h3>
+                <p class="copy">I led the frontend for a platform where sponsors and guardians register to support orphans financially and academically. React, Next.js, and TypeScript, with authentication and role-based permissions.</p>
+                <ul class="tags">
+                  <li>React</li>
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>RBAC</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="case case-phone reveal">
+              <figure class="shot shot-phone">
+                <img src="assets/img/portfolio/uride.jpg" width="445" height="900" alt="Uride mobile screen for choosing a ride, with a map route from Wuse to Area 1" />
+              </figure>
+              <div class="case-copy">
+                <p class="meta">URide · Contract · Mar 2024 – Jul 2024</p>
+                <h3>Local rides, in React Native</h3>
+                <p class="copy">I built and maintained the URide app that connects riders with local drivers. Registration and sign-in for both roles, ride booking, and live tracking through the Google geolocation API.</p>
+                <ul class="tags">
+                  <li>React Native</li>
+                  <li>Authentication</li>
+                  <li>Geolocation</li>
+                  <li>Booking</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="more reveal">
+            <h3>More products</h3>
+            <ul class="more-list">
               <li>
-                  Collaborate closely with developers, designers, and other stakeholders to facilitate effective communication and foster a collaborative development environment.
-                </li>
-              <li>
-                Stay updated with the latest industry trends, tools, and techniques in software quality assurance, continuously improving processes and methodologies.
+                <a href="https://medopthms.netlify.app/" target="_blank" rel="noreferrer">
+                  <span>
+                    <strong>MedOpt</strong>
+                    <em>Hospital management system</em>
+                  </span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
               </li>
-              </ul>
-            </div>
-           
-            
-
-
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">&#160;</h3>
-            <div class="resume-item">
-              <h4>Software Developer</h4>
-              <h5>January 2022 – February 2023</h5>
-              <p><em>Interface Connect Limited</em></p>
-              <ul>
-                <li>
-
-                  Successfully deploy front-end applications to production, ensuring a seamless user experience for clients and driving increased user engagement.
-                </li>
-                <li>
-                  Expertly integrate applications, graphics, audio, and video components into client web applications, enhancing functionality and user satisfaction.
-                </li>
-                <li>Build and implement user engagement tools that significantly enhance user retention rates, resulting in measurable increases in user satisfaction.
-                </li>
-                <li>Design and develop visually stunning and intuitive user interfaces for company websites, from scratch, ensuring responsiveness and optimization for search engine indexing.
-                </li>
-                <li>Collaborate with cross-functional teams to gather requirements, conceptualize designs, and implement solutions that meet client objectives
-                </li>
-                <li>Stay updated on emerging technologies and industry trends to continuously improve development processes and deliver innovative solutions.
-                </li>
-               
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Software Developer</h4>
-              <h5>November 2021 –  December 2022</h5>
-              <p><em>Tiidelab</em></p>
-              <ul>
-                <li>
-                  Developed Boxmonie, a fintech web application enabling collaborative finance management through a group-based contribution system, known as "thrifting."
-
-                </li>
-                <li>
-                  Utilized microservices architecture to build and deploy a micro-frontend web application, implementing state management and UI logic using React hooks.
-
-                </li>
-                <li>Created comprehensive documentation for components using React Storybook as a style guide, ensuring consistency and maintainability.
-                </li>
-                <li>Translated designs and wireframes into high-quality code, building reusable components using React.js and styled components.</li>
-                <li>Integrated frontend with REST APIs using Swagger documentation, ensuring seamless communication between frontend and backend systems.
-                <li>Documented task flow and process improvements in Confluence, facilitating knowledge sharing and team collaboration.
-                <li>Managed task progress and updates using Trello, ensuring transparency and alignment within the team.
-                </li>
-                <li>Acquired proficiency in the agile workflow, from design to deployment, and regularly presented features at demo sessions.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Software Developer</h4>
-              <h5>May 2020 –  November 2021</h5>
-              <p><em>Freelance</em></p>
-              <ul>
-                <li>
-                  Executed end-to-end development on a diverse range of projects utilizing both MERN (MongoDB, Express.js, React, Node.js) and MEVN Mongo showcasing versatility and proficiency in various technology environments.
-                </li>
-                <li>
-                  Developed a dynamic and scalable web application, integrating MongoDB as the database, Express.js for server-side development, React for the frontend, and Node.js for backend services.
-                </li>
-                <li>Implemented responsive and user-friendly interfaces using React and Vue, ensuring an optimal user experience across different devices and screen sizes.</li>
-                <li>
-                  Integrated third-party APIs to enhance functionality and provide additional features, demonstrating adaptability to external services.
-                </li>
-                <li>
-                  Leveraged Node.js for server-side scripting, enhancing the application's performance and enabling efficient handling of concurrent requests.                </li>
-                <li>
-                  Implemented user authentication and authorization features, ensuring the security and privacy of user data.
-                </li>
-                <li>
-                  Conducted thorough testing and debugging, resolving issues promptly to deliver high-quality, bug-free applications.                </li>
-                <li>
-                  Conducted thorough testing and debugging, resolving issues promptly to deliver high-quality, bug-free applications.                </li>
-                <li>
-                  Collaborated closely with clients to understand project requirements, provide regular updates, and incorporate feedback for iterative development.
-                </li>
-               </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Higher National Diploma</h4>
-              <h5>(1/2019 - 12/2022)</h5>
-              <p>
-                <em>HND(2022) in Electrical Electronics Engineering - Federal Polytechnic Idah, Kogi State.
-                </em>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects</h2>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-web">Javascript</li>
-              <li data-filter=".filter-card">React</li>
+              <li>
+                <a href="https://atdlogisticsintl.com/" target="_blank" rel="noreferrer">
+                  <span>
+                    <strong>ATD Logistics</strong>
+                    <em>Relocation, with less of the stress</em>
+                  </span>
+                  <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+              </li>
+              <li>
+                <div class="more-static">
+                  <span>
+                    <strong>Boxmonie</strong>
+                    <em>Group-savings fintech. React micro-frontend, Storybook, and REST APIs at Tiidelab.</em>
+                  </span>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/AdminApp.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/AdminApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="The React Dashboard Project offers a sleek and efficient web application for managing and analyzing data. With real-time updates, advanced filtering, sorting, and dark mode, this modern dashboard provides a personalized experience."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://abraham-react-ui.netlify.app" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Uride.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Uride.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="Uride is revolutionizing local transportation by providing a platform that connects riders with local drivers, offering convenience and reliability to our users. Creating a seamless experience for both drivers and passengers, ensuring safe and efficient transportation solutions"><i
-                    class="bx bx-zoom-in"></i></a>
-                <a  title="Live Preview"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-            <span>
-              <a href="https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29"> Project Hope is a transformative initiative aimed at providing support and opportunities for orphans to thrive and succeed.   Empower orphans by connecting them with sponsors and guardians who are willing to provide financial, academic, and emotional support.</a>
-            </span>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/hope.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/hope.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="Project Hope is a transformative initiative aimed at providing support and opportunities for orphans to thrive and succeed.   Empower orphans by connecting them with sponsors and guardians who are willing to provide financial, academic, and emotional support."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a  title="Live Preview"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-            <span>
-              <a href="https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29"> Project Hope is a transformative initiative aimed at providing support and opportunities for orphans to thrive and succeed.   Empower orphans by connecting them with sponsors and guardians who are willing to provide financial, academic, and emotional support.</a>
-            </span>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Annotation 2023-04-19 105831.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Annotation 2023-04-19 105831.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="A web application with a mobile focus that lets users view real-time metrics of companies listed on the stock exchange. The app retrieves data from the Financial Modeling API and is built using technologies like React, Redux"><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://share-market.netlify.app" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-            <span>
-              <a href="https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29"> I would like to thank 👤 Nelson Sakwa Author of the Original
-                the design</a>
-            </span>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Annotation 2023-04-19 184419.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Annotation 2023-04-19 184419.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="The Space Travelers Hub is a web app built with React.js, Redux allowing users to book rockets and join space missions offered by a commercial space travel company, using live data from the SpaceX API."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://spacetravelershub-j37j.onrender.com/" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/expenseTracker.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/expenseTracker.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="The React Expense Tracker is a simple and efficient web app for tracking expenses. Built with React.js, it offers real-time expense management, categorization, and budgeting features for easy financial tracking. Simplify your expense management with the React Expense Tracker."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://chrisexpense.netlify.app/" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Annotation 2023-04-19 184643.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Annotation 2023-04-19 184643.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="math magician is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations, generate and read random math-related quotes and also tweet the quote."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://math-magician1.onrender.com/" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/nameInputApp.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/nameInputApp.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="The React Name & Age Input is a streamlined web component for collecting name and age data. Built with React.js, it offers a user-friendly design and efficient data validation, making it ideal for registration forms or user profiles. Simplify data collection with the React Name & Age Input."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://chris-input.netlify.app/" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolioApp.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolioApp.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="The React Portfolio is a modern web app for creating and displaying professional portfolios. Built with React.js, it offers a responsive and customizable design to showcase skills and projects. Impress potential clients or employers with a stunning portfolio website powered by React.js."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://abrahamchristopher-react-portfolio.netlify.app" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Annotation 2023-04-19 184757.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Annotation 2023-04-19 184757.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="The React Todo App is a user-friendly web app for creating and managing tasks. Built with React.js, it offers a simple and responsive interface for adding tasks, setting priorities, and marking completed tasks. Stay organized and productive with the React Todo List powered by React.js."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://todo-2jic.onrender.com" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/bookstore.PNG" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/bookstore.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="This project aims to create a basic website that showcases a list of books that can be edited by users. The objective is to build a responsive multi-page book website using Html, CSS, and JavaScript. As part of the project."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://chris-book-app.netlify.app" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/weatherApp.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/weatherApp.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="The React Weather App is a sleek web app for checking real-time weather conditions. Built with React.js, it provides accurate weather information, forecasts, and interactive maps in a user-friendly interface. Stay informed about weather conditions with the React Weather App powered by React.js."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://abraham-react-weather-app.netlify.app" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-          <!-- Javascript -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Annotation 2023-03-16 203224.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Annotation 2023-03-16 203224.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="The Meal DB is a web application that utilizes an external API from to showcase a list of meals. Users have the ability to interact with the meals by liking them, leaving comments, or reserving a meal using an involvement API. However, the reservation, Comments features has not been incorporated into the application due to limited group members."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://cabraham1.github.io/Javascript-Capstone-Project/" title="Live Preview"
-                  target="_blank"><i class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Annotation 2023-04-19 191739.png" class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Annotation 2023-04-19 191739.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                  title="To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://cabraham1.github.io/Todo-list/" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/WeLead conferences - Google Chrome 2_9_2023 8_54_30 AM.png"
-                class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/WeLead conferences - Google Chrome 2_9_2023 8_54_30 AM.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="The objective of this project is to develop a straightforward, multi-page, and mobile-friendly conference website that will be launched later this year. The website will display all the crucial information related to the conference, including the list of speakers, the event schedule, the sponsors, and any other relevant information."><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://cabraham1.github.io/WeLead-conference/" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-            <span>
-              <a href="https://www.behance.net/adagio07"> I would like to thank 👤 cindy shin Author of the Original
-                the design</a>
-            </span>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="assets/img/portfolio/Leaderboard and 4 more pages - Personal - Microsoft​ Edge 3_14_2023 3_28_28 PM.png"
-                class="img-fluid" alt="" />
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Leaderboard and 4 more pages - Personal - Microsoft​ Edge 3_14_2023 3_28_28 PM.png"
-                  data-gallery="portfolioGallery" class="portfolio-lightbox"
-                  title="The leaderboard website displays scores submitted by different players. It also allows you to submit your score"><i
-                    class="bx bx-zoom-in"></i></a>
-                <a href="https://cabraham1.github.io/Leaderboard/" title="Live Preview" target="_blank"><i
-                    class="bx bx-link-external"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      </div>
       </div>
     </section>
-    <!-- End Portfolio Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-title">
-          <h2>Contact</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-        </div>
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index">02</p>
+          <div>
+            <h2 id="experience-title">Experience</h2>
+            <p class="lede">Frontend roles across SaaS, insurance, fintech, and public products. Most recent first.</p>
+          </div>
+        </header>
 
-        <div class="row" data-aos="fade-in">
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Nigeria</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>christopherabraham8@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+234 810 091 5641</p>
-              </div>
-
-
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11146.750530334619!2d7.368186299387671!3d8.974774610180063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e73684ebb9055%3A0x6746ef74dff8b487!2sINTERFACE%20CONNECT%20LIMITED!5e0!3m2!1sen!2sng!4v1670681499035!5m2!1sen!2sng"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="roles">
+          <article class="role reveal">
+            <p class="role-when">Jan 2026 – Present</p>
+            <div>
+              <h3>Software Engineer, Frontend <span class="badge">Now</span><span class="role-org">Myka Ecosystems</span></h3>
+              <ul>
+                <li>Build and maintain internal applications for insurance policies, customer records, claims, and payments.</li>
+                <li>Ship the workflows staff rely on: policy updates, claims from submission through approval, and review tools for underwriters.</li>
+                <li>Build reporting tools for inspectors and field agents, integrate backend APIs, and improve performance across the product and company site.</li>
+              </ul>
             </div>
-          </div>
+          </article>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formspree.io/f/mrgdnrlz" method="POST" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required />
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required />
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required />
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your message has been sent. Thank you!
-                </div>
-              </div>
-              <div class="text-center">
-                <button type="submit">Send Message</button>
-              </div>
-            </form>
-          </div>
+          <article class="role reveal">
+            <p class="role-when">May 2024 – Apr 2026</p>
+            <div>
+              <h3>Software Engineer, Frontend<span class="role-org">MBL High-Tech Nigeria</span></h3>
+              <ul>
+                <li>Developed a CRM used by more than 500 companies across multiple countries, with interfaces shaped to different business and regional needs.</li>
+                <li>Implemented customer-requested features inside the live system while protecting performance as usage grew.</li>
+                <li>Helped deliver a progressive web app for financial trading and improved ClientZone for managing financial transactions.</li>
+                <li>Worked in an agile team through sprint planning, code review, and continuous integration.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role-when">Mar 2024 – Jul 2024</p>
+            <div>
+              <h3>React Native Developer<span class="role-org">URide · Contract</span></h3>
+              <ul>
+                <li>Built the rider and driver experience in React Native, including registration, authentication, and ride booking.</li>
+                <li>Integrated Google geolocation so drivers and passengers can track trips in real time.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role-when">Dec 2023 – May 2024</p>
+            <div>
+              <h3>Software Engineer, Frontend<span class="role-org">Thermolinks</span></h3>
+              <ul>
+                <li>Led frontend development for Project Hope, connecting orphans with sponsors and guardians.</li>
+                <li>Contributed to the Nigeria Startup Portal, where startups register and apply for government seed funding.</li>
+                <li>Delivered the interfaces in React, Next.js, and TypeScript, with Redux, Zustand, NextAuth, and role-based access.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role-when">May 2023 – Dec 2023</p>
+            <div>
+              <h3>Software Engineer, Frontend<span class="role-org">Vorbtech Innovative Solutions · Contract</span></h3>
+              <ul>
+                <li>Built React and Next.js interfaces in TypeScript, including real-time features with Socket.io.</li>
+                <li>Implemented REST APIs with Node.js and Express, role-based access, documentation, and unit and end-to-end tests.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role-when">May 2023 – Apr 2024</p>
+            <div>
+              <h3>Code Reviewer<span class="role-org">Microverse · Contract</span></h3>
+              <p class="summary">Reviewed code and interface quality against engineering standards, then followed through on the rework. Supported developers on GitHub and Slack and worked closely with designers and other reviewers.</p>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role-when">Jan 2022 – Feb 2023</p>
+            <div>
+              <h3>Software Developer<span class="role-org">Interface Connect Limited</span></h3>
+              <p class="summary">Designed and shipped responsive client websites, integrated media into web applications, built engagement tools, and deployed frontends to production with cross-functional teams.</p>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role-when">Nov 2021 – Jan 2022</p>
+            <div>
+              <h3>Software Developer<span class="role-org">Tiidelab</span></h3>
+              <p class="summary">Built Boxmonie, a group-savings fintech app, as a React micro-frontend. State lived in hooks, components were documented in Storybook, and the UI talked to REST APIs described in Swagger. Work ran through an agile loop of demos, Confluence notes, and Trello.</p>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role-when">May 2020 – Nov 2021</p>
+            <div>
+              <h3>Software Developer<span class="role-org">Freelance</span></h3>
+              <p class="summary">Delivered MERN and MEVN applications end to end: React and Vue interfaces, Node.js services, third-party APIs, authentication, and direct work with clients from brief to release.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
-    <!-- End Contact Section -->
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="index">03</p>
+          <div>
+            <h2 id="about-title">About</h2>
+            <p class="lede">Frontend engineering for products that have real operational weight.</p>
+          </div>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>I focus on the front of complex products: the workflows, the state, and the interface people use every day. The work I enjoy most stays clear as it grows, with more users, more regions, and more rules.</p>
+            <p>I review code carefully, mentor newer developers, and work in agile teams from planning through release. Alongside product work, I write about engineering on Medium.</p>
+            <p>My foundation is an HND in Electrical and Electronic Engineering from Federal Polytechnic Idah, plus continued study in React, including routing and Redux.</p>
+          </div>
+          <dl class="facts reveal">
+            <div>
+              <dt>Based</dt>
+              <dd>Nigeria</dd>
+            </div>
+            <div>
+              <dt>Education</dt>
+              <dd>HND, Electrical &amp; Electronic Engineering<br />Federal Polytechnic Idah, Kogi State</dd>
+            </div>
+            <div>
+              <dt>Study</dt>
+              <dd>React — The Complete Guide 2024<br />Academind, Maximilian Schwarzmüller</dd>
+            </div>
+            <div>
+              <dt>Languages</dt>
+              <dd>English, Ebira, Pidgin</dd>
+            </div>
+            <div>
+              <dt>Writing</dt>
+              <dd><a href="https://medium.com/@christopherabraham8" target="_blank" rel="noreferrer">Technical writing on Medium</a></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="skill-groups reveal">
+          <section class="skill-group" aria-labelledby="skill-frontend">
+            <h3 id="skill-frontend">Frontend</h3>
+            <ul>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React Native</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-app">
+            <h3 id="skill-app">Application</h3>
+            <ul>
+              <li>NextAuth</li>
+              <li>Redux</li>
+              <li>Zustand</li>
+              <li>REST APIs</li>
+              <li>Socket.io</li>
+              <li>Styled Components</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-quality">
+            <h3 id="skill-quality">Quality</h3>
+            <ul>
+              <li>Jest</li>
+              <li>React Testing Library</li>
+              <li>Cypress</li>
+              <li>Capybara</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-also">
+            <h3 id="skill-also">Also</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+              <li>SQL</li>
+              <li>Ruby on Rails</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>Agile</li>
+              <li>Technical writing</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div class="contact-intro reveal">
+          <p class="index">04</p>
+          <h2 id="contact-title">Let’s talk about the product.</h2>
+          <a class="email-link" href="mailto:christopherabraham8@gmail.com">christopherabraham8@gmail.com</a>
+          <ul class="contact-meta">
+            <li><a href="tel:+2348100915641">+234 810 091 5641</a></li>
+            <li>Nigeria</li>
+          </ul>
+          <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/abrahamchristopher" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/cabraham1" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://medium.com/@christopherabraham8" target="_blank" rel="noreferrer">Medium</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" action="https://formspree.io/f/mrgdnrlz" method="POST">
+          <input type="hidden" name="_subject" value="Portfolio inquiry — Christopher Abraham" />
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label class="field">
+            <span>Message</span>
+            <textarea name="message" required></textarea>
+          </label>
+          <button class="button" type="submit">Send message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
   </main>
-  <!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Christopher Abraham</p>
+      <p>Frontend engineer · React, Next.js, TypeScript</p>
     </div>
   </footer>
-  <!-- End  Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 </body>
-
-<!-- Mirrored from www.techietee.dev/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Dec 2022 11:39:09 GMT -->
-
 </html>
