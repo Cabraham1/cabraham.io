@@ -451,7 +451,7 @@ h4 {
 .stats strong {
   display: block;
   font-family: var(--serif);
-  font-size: 1.85rem;
+  font-size: clamp(1.45rem, 2.2vw, 1.85rem);
   font-weight: 560;
   letter-spacing: -0.04em;
   line-height: 1;
